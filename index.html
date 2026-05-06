@@ -49,7 +49,7 @@
             <div class="card">
                 <img src="./queijo.png" alt="Queijo">
                 <p>Mussarela Artesanal</p>
-            </div>
+            </div>  
             <div class="card">
                 <img src="./relampago.png" alt="relampago">
                 <p>Entrega rápida</p>
@@ -116,8 +116,8 @@
              <form class="form-contato" id="formcontato">
                 <input type="text" placeholder="Coloque o seu nome" id="nomeForm" >
                 <input type="text" placeholder="Coloque o seu email" id="emailForm">
-                <textarea type="text" placeholder="formulario" id="formularioForm"></textarea>
-             <button>Enviar</button>
+                <textarea placeholder="formulario" id="formularioForm"></textarea>
+             <button onclick="message(event)">Enviar</button>   
              </form>
              </div>
         </div>
@@ -134,7 +134,18 @@
     </footer>
     <script src="script.js"></script>
     <script>
-        // configuração do javascript do formulário
+        function message(event) {
+           const telefone ='5541999999999';
+           event.preventDefault();
+                 const nome = document.getElementById('nomeForm').value;
+                const email = document.getElementById('emailForm').value;
+                const formulario = document.getElementById('formularioForm').value;
+
+                const mensagem = `Olá, meu nome é ${nome}, meu email é ${email} e minha mensagem é: ${formulario}`;
+                const textoc=encodeURIComponent(mensagem);
+                const whatsappUrl = `https://wa.me/${telefone}?text=${textoc}`;
+                window.open(whatsappUrl, '_blank');
+         }
     </script>
 </body>
 </html>
