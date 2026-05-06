@@ -1,0 +1,14 @@
+Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. Nosso espaço nasceu com a ideia de unir pessoas, sabores e momentos especiais em um ambiente acolhedor, inspirado nas tradicionais pizzarias italianas.
+
+
+Tudo começa com ingredientes selecionados, massa preparada com cuidado e o aroma irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, respeitando a tradição, mas também trazendo um toque de criatividade que torna cada experiência única.
+
+Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre amigos, uma pausa depois de um dia de trabalho ou uma comemoração especial, a Pizza FIEP é um lugar para compartilhar, conversar e aproveitar o melhor da boa comida.
+
+
+atividade: 
+
+no projeto da Pizza fiep você precisa:
+- Pesquisar e descobrir como colocar o mapa em html,  o endereço é o do colégio: Rua Paula Gomes, 270, São Francisco.
+- Estruturar o formulario nome, email e menssagem, além de colocar a funcionalidade no botão para enviar menssagem pelo whatsApp assim como no primeiro projeto de Landing Page, a do curso de desenvolvimento de sistemas.  https://github.com/HelenDellaRoveri/LandingPage
+- Arrumar o footer de acordo o figma. https://www.figma.com/site/03Mv55AaUPEwQJE1hdRS4I/Pizza-Fiep?node-id=0-3&t=nXnd1WtG7pp4eXmW-1
