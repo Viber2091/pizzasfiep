@@ -281,7 +281,7 @@ body{
 }
 
 .form-contato textarea{
-    padding: 12px 15px;
+    padding: 100px 15px;
     border: none;
     border-radius: 8px;
     background: #2b2a2a;
@@ -294,6 +294,7 @@ body{
     margin-left: flex;
     margin-bottom: 20px;
 }
+
 
 .form-contato button{
     padding: 17px 15px;
